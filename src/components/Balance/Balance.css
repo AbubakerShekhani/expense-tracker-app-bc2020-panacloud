@@ -7,14 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 .container {
   margin: 30px auto;
   width: 350px;
-  border: 1px solid #000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -1,0 +1,34 @@
+.transaction {
+
+  display: flex;
+  justify-content: left;
+  margin-right: 28px;
+}
+
+.transaction li{
+  width: 100%;
+
+  padding: 10px;
+  list-style: none;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    opacity: 0.5;
+    margin-left: 5px;
+    transition: opacity .3s ease;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+}

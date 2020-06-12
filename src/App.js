@@ -8,7 +8,7 @@ import AddTransaction from './components/Transactions/AddTransaction'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
+
 import { GlobalProvider } from './context/GlobalState'
 
 const drawerWidth = 240;
@@ -96,7 +96,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
-  const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
+
   return (
     <GlobalProvider>
       <div className="App container">

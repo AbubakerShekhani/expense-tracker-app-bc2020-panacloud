@@ -113,14 +113,16 @@ function App() {
 
         <Grid container className={classes.container}>
           <Grid item md={12}>
-            <TransactionList />
-          </Grid>
-        </Grid>
-        <Grid container className={classes.container}>
-          <Grid item md={12}>
           <AddTransaction />
           </Grid>
         </Grid>
+
+        <Grid container className={classes.container}>
+          <Grid item md={12}>
+            <TransactionList />
+          </Grid>
+        </Grid>
+
       </div>
     </GlobalProvider>
   );

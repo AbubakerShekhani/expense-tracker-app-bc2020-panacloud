@@ -51,7 +51,7 @@ const AddTransaction = () => {
           <div className={classes.paper}>
 
             <Typography component="h1" variant="h5">
-              New Transaction
+              Add New Transaction
             </Typography>
             <form className={classes.form} noValidate onSubmit={onSubmit}>
               <TextField

@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>This is Project 1 and is part of the Panacloud's Bootcamp 2020 (Freelance and Remote Work). </h2>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This project helped us learned and apply the following <b>concepts</b>
+- React Hooks (useState, useContext, useReducer)
+- React Context API
+- Deployment on Surge
+- GitHub actions for CI/CD
+- React in general
+
+<h2>Project LIVE URL</h2> 
+http://expense-tracker-app-abubaker.surge.sh/
+
+<h2>Quick Expense Tracker (Screen shot)</h2>
+
+![alt text](https://user-images.githubusercontent.com/16397892/84472659-09105980-aca1-11ea-922e-442307d60947.png)
 
 ## Available Scripts
 

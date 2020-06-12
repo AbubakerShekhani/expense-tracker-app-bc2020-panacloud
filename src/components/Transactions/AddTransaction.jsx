@@ -75,7 +75,7 @@ const AddTransaction = () => {
                 required
                 fullWidth
                 name="amount"
-                label="Amoun (use minus for expense)"
+                label="Amount (use minus for expense)"
                 type="number"
                 id="amount"
                 value={amount}

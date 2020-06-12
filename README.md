@@ -10,6 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <h2>Project LIVE URL</h2> 
 http://expense-tracker-app-abubaker.surge.sh/
 
+<h2>Quick Expense Tracker</h2>
+![image](https://user-images.githubusercontent.com/16397892/84472659-09105980-aca1-11ea-922e-442307d60947.png)
+
 ## Available Scripts
 
 In the project directory, you can run:

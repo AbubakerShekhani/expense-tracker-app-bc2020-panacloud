@@ -7,6 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - GitHub actions for CI/CD
 - React in general
 
+Following concepts used:
+- React
+- React hooks (useState, useContext, useReducer)
+- Reducers
+- Context API
+- Material UI for layout and styling
+
 <h2>Project LIVE URL</h2> 
 http://expense-tracker-app-abubaker.surge.sh/
 

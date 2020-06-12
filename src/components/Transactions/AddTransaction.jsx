@@ -42,7 +42,10 @@ const AddTransaction = () => {
       amount: +amount
     }
 
-    addTransaction(newTransaction);
+    if (note !== '' && amount !=='')
+    {
+      addTransaction(newTransaction);
+    }
   }
 
   const classes = useStyles();

@@ -1,16 +1,13 @@
 import React, { useContext } from 'react'
 import Transaction from './Transaction'
 import { GlobalContext } from '../../context/GlobalState'
+import Typography from '@material-ui/core/Typography'
 
 const TransactionList = () => {
-  //const context = useContext(GlobalContext)
-
   const { transactions } = useContext(GlobalContext)
 
-  console.log(transactions)
-
   return (<div>
-    <h2>Recent Transactions</h2>
+    <Typography variant="h5" gutterBottom>Recent Transactions</Typography>
     <ul className="transaction-list">
       { transactions.map(transaction => (
         <Transaction key={transaction.id} transaction={transaction} />

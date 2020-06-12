@@ -1,10 +1,9 @@
 import React from 'react'
+import Typography from '@material-ui/core/Typography'
 
 const AppHeader = () => {
   return (
-    <div>
-      <h1>Quick Expense Tracker</h1>
-    </div>
+    <Typography variant="h4" gutterBottom>Quick Expense Tracker</Typography>
   )
 }
 

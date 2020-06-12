@@ -2,6 +2,9 @@ import React, { useContext } from 'react'
 import './Balance.css'
 import { GlobalContext } from '../../context/GlobalState'
 
+import Typography from '@material-ui/core/Typography';
+
+
 const Balance = () => {
 
   const { transactions } = useContext(GlobalContext)
@@ -10,9 +13,14 @@ const Balance = () => {
   const total = amounts.reduce((acc, item) => (acc+= item), 0).toFixed(2)
 
   return (
-    <div className="container">
-      <h2>Balance: ${total}</h2>
-    </div>
+    <React.Fragment>
+      <Typography component="h2" variant="h6" color="primary" gutterBottom>
+        Balance
+      </Typography>
+      <Typography component="p" variant="h4">
+        ${total}
+      </Typography>
+    </React.Fragment>
   )
 }
 
